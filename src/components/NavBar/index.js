@@ -26,7 +26,7 @@ class NavBar extends Component {
           <img
             className="logo-image"
             src="https://assets.ccbp.in/frontend/react-js/game-logo-img.png"
-            alt="logo"
+            alt="emoji logo"
           />
           <h1 className="logo-title">Emoji Game</h1>
         </div>
