@@ -11,11 +11,13 @@ class EmojiCard extends Component {
     const onclickEmojiItem = () => {
       onClickEmoji(id)
     }
-    return (
-      <li className="emoji-item" onClick={onclickEmojiItem}>
-        <img key={id} src={emojiUrl} alt={emojiName} className="emoji-image" />
-      </li>
-    )
+     return (
+    <li className="emoji-item">
+      <button className="emoji-button" type="button" onClick={onClickEmoji}>
+        <img src={emojiUrl} alt={emojiName} className="emoji-img" />
+      </button>
+    </li>
+  )
   }
 }
 
